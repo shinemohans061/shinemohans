@@ -1,0 +1,91 @@
+:root {
+    --primary-color: #4CAF50; /* Green */
+    --white: #FFFFFF; /* White */
+    --text-color: #34495E; /* Darker Gray */
+}
+
+/* General page styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--white); /* White background for home page */
+}
+
+/* Header styles */
+header {
+    background: var(--primary-color); /* Green background */
+    padding: 1.5em;
+    text-align: center;
+    color: var(--white);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 2em;
+}
+
+/* Footer styles */
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 2em;
+    color: var(--white);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Assignment section styles */
+.qa-section {
+    background-color: var(--white); /* White background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    margin-top: 1.5em;
+}
+
+.qa-section h2 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5em;
+}
+
+.qa-section h3 {
+    color: var(--text-color);
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.qa-section p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0.5em 0;
+    color: #555;
+}
+
+/* Media styles */
+img {
+    border-radius: 5px;
+    margin: 1em 0;
+    max-width: 100%;
+}
+
+/* Profile photo styles */
+.profile-photo {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make it a circle */
+    margin: 1em 0; /* Space above and below */
+}
