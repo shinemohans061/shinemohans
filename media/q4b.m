@@ -1,0 +1,11 @@
+t = 0:0.000001:10;
+f1 = 1;  
+f2 = 10; 
+y1_t = (2 * pi * f1) / ((2 * pi * f1)^2 + 1) * (cos(2 * pi * f1 * t) - exp(-t));
+y2_t = (2 * pi * f2) / ((2 * pi * f2)^2 + 1) * (cos(2 * pi * f2 * t) - exp(-t));
+y_t = y1_t + y2_t;
+plot(t, y_t, 'LineWidth', 1.5);
+xlabel('t');
+ylabel('y(t)');
+title('Plot of y(t)');
+grid on;
